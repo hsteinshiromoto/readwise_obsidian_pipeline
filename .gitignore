@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Synced Readwise library: personal notes plus third-party article content
+documents/
+
+# Agent state: session history, telemetry and config backups
+.claude/
+
+# Artifact of an unexpanded path template
+{{config_dir}}/
