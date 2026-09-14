@@ -82,3 +82,7 @@ This runs the docstring examples of every module. It needs no packages beyond th
 - The API parameter for tags is `tag`, not `tags`. Readwise ignores the plural form without an error and returns the whole library.
 - Both list endpoints allow 20 requests per minute. The pipeline waits 3 seconds between requests and honors the `Retry-After` header.
 - `documents/` stays out of git. It holds personal notes and third-party article text.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
